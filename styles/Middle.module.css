@@ -1,0 +1,24 @@
+.menuLink {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn {
+    background-color: #e49452;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.middle {
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 10px #e49452;
+    background-color: white;
+    }

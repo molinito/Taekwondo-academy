@@ -1,0 +1,115 @@
+/*.navbar {
+    background-color: #ec53cd;
+    color: #fff;
+  } 
+  
+  .navbar__link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar__link:hover {
+    color: #ffcc00;
+  }
+  
+  .menuButton {
+    cursor: pointer;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .hamburgerLines {
+    width: 100%;
+    height: 2px;
+    background-color: #0a0404;
+    margin-bottom: 4px;
+  } */
+
+  .navbar {
+    position: relative;
+    background-color: #e49452;
+    color: #fff;
+    height: 60px;
+  }
+
+  .navbar a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+  }
+  
+  .navbar__link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar__link:hover {
+    color: #ffcc00;
+  }
+  
+  .menuButton {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .menuButtonActive .hamburgerLine {
+    background-color: #ffcc00;
+  }
+  
+  .hamburgerLine {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .menuLinks {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 2;
+    background-color: #333;
+    padding: 16px;
+    list-style-type: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin-top: 8px;
+  }
+  
+  .menuLink {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .menuLink:last-child {
+    border-bottom: none;
+  }
+   
+  
