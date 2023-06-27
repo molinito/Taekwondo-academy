@@ -16,8 +16,11 @@ const HomePage = () => {
       <Middle />
       <Footer />
       
+      
       <Box p={8}>
       </Box>
+
+ 
       
     </>
   );

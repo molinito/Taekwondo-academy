@@ -22,3 +22,20 @@
     box-shadow: inset 0 0 10px #e49452;
     background-color: white;
     }
+.photo1{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .middle {
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 0 10px #e49452;
+        background-color: white;
+    }
+    .photo1{
+        width: 100%;
+        height: auto;
+    }
+}

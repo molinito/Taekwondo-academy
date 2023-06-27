@@ -1,7 +1,19 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  async rewrites() {
+    return [
+      {
+        source: '/login',
+        destination: '/components/Login',
+      },
+      {
+        source: '/dashboard',
+        destination: '/components/Dashboard',
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;
